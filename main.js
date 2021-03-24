@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4affadc121c166af2ff2acbca1b5f9da392d5c91adf5cd804539f57eb3a01650
-size 495
+$(document).ready(function(){
+    var target = $(".sidebar");
+
+    // 버튼을 클릭하면 사이드바 열림
+    $(document).on("click", ".OpenBtn", function (e){
+        target.show();
+        target.addClass('emphasized');
+    });
+
+    // 사이드바 외부를 클릭하면 사이드바 닫힘
+    $(document).mouseup(function (e){
+        if(target.has(e.target).length==0) {
+            target.hide();
+            target.removeClass('emphasized');
+        } 
+    });
+});
