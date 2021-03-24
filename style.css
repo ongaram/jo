@@ -1,3 +1,248 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ce67389cfea6ba1216ff9537bcf01aa90497c1aae18c8281c138fbf1b036725d
-size 3945
+body {
+    margin: 0;
+    background-color: rgb(250, 250, 250);
+}
+
+.gtfr p {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.gtfr ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.gtfr {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.main-con {
+    color: #FF4646;
+    font-size: 75px;
+    margin-bottom: 40px;
+}
+
+.side-con {
+    color: rgb(0, 0, 85);
+    font-size: 75px;
+}
+
+.side-con-min {
+    font-size: 75px;
+    margin-bottom: 50px;
+}
+
+.side-con-min::marker,
+.side-con::marker,
+.main-con::marker,
+.main-con-flus::marker {
+    display: none;
+}
+
+.side-con-flus {
+    text-indent: 65px;
+}
+
+.main-con-gap {
+    margin-bottom: 50px;
+}
+
+.side-con-gap {
+    text-indent: 23px;
+}
+
+.color-rgb {
+    color: rgb(0, 0, 85);
+}
+
+.color-rgb-min {
+    color: #ccac00;
+}
+
+.color-rgb-m-o {
+    color: #800080;
+}
+
+
+.btn-page {
+    border-radius: 20px;
+    border: 5px solid #5da62b;
+    height: 180px;
+    width: 250px;
+    font-size: 70px;
+    padding: 0;
+    background-color: rgb(0, 220, 0);
+}
+
+.btn-page a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-page:hover {
+    background-color: #228B22;
+    border-radius: 20px;
+}
+
+.btn-size .btn-page:first-child {
+    margin-right: 100px;
+}
+
+.btn-size .btn-page:last-child {
+    margin-left: 100px;
+}
+
+.btn-size {
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.font-size {
+    font-size: 120px;
+    color: #8B4513;
+}
+
+.c-b-m-f {
+    color: #0025f5;
+}
+
+.padding-tab {
+    padding-bottom: 10px;
+    color: #FF8200;
+}
+
+.color-rgb-m-j-o {
+    color: #834683;
+}
+
+.btn-link {
+    margin-top: 350px;
+}
+
+.btn-link ul li:nth-child(1) a:hover {
+    background-color: #228B22;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.btn-link ul li:nth-child(2) a:hover {
+    background-color: #228B22;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.btn-link ul li:nth-child(3) a:hover {
+    background-color: #228B22;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.btn-link ul {
+    display: flex;
+    list-style: none;
+    padding-right: 40px;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+.btn-link ul li {
+    flex: 1;
+}
+
+.btn-link a {
+    background-color: rgb(0, 220, 0);
+    display: block;
+    height: 210px;
+    color: white;
+    text-align: center;
+    line-height: 210px;
+    text-decoration: none;
+    font-size: 105px;
+}
+
+
+.header-div {
+    background-color: rgb(0, 220, 0);
+    border-top: 5px solid #5da62b;
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+    padding: 10px 14px 10px 50px;
+    margin-top: 100px;
+    color: white;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 105px;
+    position: absolute;
+    top: 0;
+}
+
+.header-div:hover {
+    background-color: #228B22;
+}
+
+.sidebar-p1 {
+    font-size: 90px;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.sidebar {
+    display: none;
+    top: 0;
+    background-color: rgb(0, 220, 0);
+    color: white;
+    width: 1050px;
+    height: auto;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.sidebar a:hover {
+    padding: 8px 12px;
+    background-color: #228B22;
+    border-radius: 8px;
+}
+
+.sidebar-flex {
+    display: flex;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    font-size: 45px;
+}
+
+.emphasized {
+    box-shadow : rgba(0,0,0,0.5) 0 0 0 9999px;
+}
