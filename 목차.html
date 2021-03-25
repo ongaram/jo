@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>표지</title>
+    <title>목차</title>
 
     <style>
 
@@ -18,6 +18,10 @@
         padding-bottom: 10px;
     }
 
+    .flex a {
+        text-decoration: none;
+        color: white;
+    }
 
     .flex a:hover {
         padding: 6px 10px;
@@ -26,7 +30,7 @@
     }
 
     .flex {
-        display: none;
+        display: flex;
         width: 100%;
         text-align: center;
         margin-bottom: 100px;
@@ -50,110 +54,38 @@
 
     .flex a {
         text-decoration: none;
-        color: white;
         font-size: 40px;
     }
 
-    .p1 {
+    .sidebar-p1-1 {
+        color: white;
+        font-size: 90px;
+        margin: 0;
+        padding-top: 100px;
+        padding-bottom: 10px;
+    }
+
+    .div-11 {
         width: 100%;
         text-align: center;
-        margin-top: 300px;
     }
 
-    .p2 {
-        width: 100%;
-        text-align: right;
-        margin-top: 400px;
-    }
-
-
-    .p1 ul li {
-        list-style: none;
-        color: white;
-        font-size: 100px;
-    }
-
-    .p2 ul li {
-        list-style: none;
-        color: white;
-        font-size: 80px;
-        padding-right: 80px;
-    }
-
-    .btn {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-
-    .btn-li {
-        display: table;
-        text-align: center;
-        font-size: 80px;
-        list-style: none;
-        background-color: yellow;
-        border-radius: 20px;
-        width: 400px;
-        height: 300px;
-        line-height: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 300px;
-    }
-
-    .btn li {
-        display: block;
-        width: 500px;
-        height: 100px;
-    }
-
-    .btn a {
+    .div-11 a {
         text-decoration: none;
-        color: red;
+        color: white;
     }
 
+    .div-11 a:hover {
+        padding: 6px 10px;
+        background-color: #228B22;
+        border-radius: 12px;
+    }
     </style>
 </head>
 <body>
-
-    <div class="p1">
-            <ul>
-                <li class="om">
-                    적 천 수 원 문
-                </li>
-                <li class="hj">
-                    適 天 髓 原 文
-                </li>
-            </ul>
+    <div class="div-11">
+        <p class="sidebar-p1-1"><a href="표지.html">저 자 소 개</a></p>
     </div>
-
-    <div class="btn">
-        <div class="t-c">
-            <ul class="btn-li">
-                <a href="목차.html">
-                    <li>
-                        명 리
-                    </li>
-                    <li>
-                        命 理
-                    </li>
-                </a>
-            </ul>
-        </div>
-    </div>
-
-    <div class="p2">
-        <ul>
-            <li>
-                저 자 : 유 백 온
-            </li>
-            <li>
-                著 者 : 劉 伯 溫
-            </li>
-        </ul>
-    </div>
-
     <div class="flex">
         <div class="flex1">
             <p class="sidebar-p1">원 문</p>
