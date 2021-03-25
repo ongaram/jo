@@ -38,15 +38,16 @@ body {
     margin-bottom: 50px;
 }
 
+.side-con-min-flus {
+    font-size: 75px;
+    margin-bottom: 15px;
+}
+
 .side-con-min::marker,
 .side-con::marker,
 .main-con::marker,
 .main-con-flus::marker {
     display: none;
-}
-
-.side-con-flus {
-    text-indent: 65px;
 }
 
 .main-con-gap {
@@ -62,6 +63,10 @@ body {
 }
 
 .color-rgb-min {
+    color: #ccac00;
+}
+
+.color-rgb-flus {
     color: #ccac00;
 }
 
