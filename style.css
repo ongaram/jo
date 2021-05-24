@@ -1,280 +1,201 @@
 html, body {
-    background-color: rgb(250, 250, 250);
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
+    background-image: url('img.jpg');
+    background-size: cover;
 }
 
-.gtfr p {
-    padding-top: 0;
-    padding-bottom: 0;
-    margin: 0;
+.swiper-button-next,
+.swiper-button-prev {
+    -webkit-tap-highlight-color: transparent !important;
+    position: fixed !important;
+    background-color: black;
+    border-radius: 35px !important;
+    color: white !important;
+    padding: 3.5% !important;
+    opacity: 0.7;
 }
 
-.gtfr ul {
-    list-style: none;
-    margin: 0;
+.swiper-number {
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    background-color: black;
+    border-radius: 35px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 10px 4%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.7;
+}
+
+.swiper-slide {
     padding-left: 0;
 }
 
-.gtfr {
-    margin-bottom: 50px;
-    margin-top: 50px;
-    padding-left: 50px;
-    padding-right: 20px;
-}
-
-.main-con {
-    font-size: 75px;
-    margin-bottom: 40px;
-}
-
-.side-con {
-    font-size: 75px;
-}
-
-.side-con-min {
-    font-size: 75px;
-    margin-bottom: 50px;
-}
-
-.side-con-min-flus {
-    font-size: 75px;
-    margin-bottom: 15px;
-}
-
-.side-con-min::marker,
-.side-con::marker,
-.main-con::marker,
-.main-con-flus::marker {
-    display: none;
-}
-
-.main-con-gap {
-    margin-bottom: 50px;
-}
-
-.side-con-gap {
-    text-indent: 23px;
-}
-
-.color-rgb {
-    color: black;
-}
-
-.color-rgb-min {
-    color: black;
-}
-
-.color-rgb-flus {
-    color: black;
-}
-
-.btn-page {
-    border-radius: 20px;
-    /*border: 10px solid #5da62b;*/
-    border: 5px solid gray;
-    height: 230px;
-    width: 300px;
-    font-size: 70px;
-    padding: 0;
-    /*background-color: rgb(0, 220, 0);*/
-    background-color: #464646;
-    margin-bottom: 70px;
-}
-
-.btn-page a {
-    color: white;
-    text-decoration: none;
-}
-
-.btn-page:hover {
-    /*background-color: #228B22;*/
-    background-color: #464646;
-    border-radius: 20px;
-}
-
-.btn-size .btn-page:first-child {
-    margin-right: 100px;
-}
-
-.btn-size .btn-page:last-child {
-    margin-left: 100px;
-}
-
-.btn-size {
-    text-align: center;
-}
-
-.font-size {
-    font-size: 120px;
-}
-
-.padding-tab {
-    padding-bottom: 15px;
-    /*color: #FF8200;*/
-    color: black;
-}
-
-.color-rgb-m-j-o {
-    color: black;
-}
-
-.btn-link {
-    margin-top: 300px;
-    width: 100%;
-}
-
-.btn-link ul li:nth-child(1) a:hover {
-    background-color: black;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-}
-
-.btn-link ul li:nth-child(2) a:hover {
-    background-color: black;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-}
-
-.btn-link ul li:nth-child(3) a:hover {
-    background-color: black;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-
-.btn-link ul {
-    display: flex;
+.title {
+    display: table;
+    -webkit-tap-highlight-color: transparent;
     list-style: none;
-    padding-right: 40px;
-    margin-bottom: 0;
-    margin-top: 50px;
+    width: auto;
+    height: 180px;
+    line-height: 180px;
+    text-align: center;
+    background-color: white;
+    color: rgb(248, 166, 72);
+    font-size: 110px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid rgb(248, 166, 72);
+    border-radius: 65px;
+    box-shadow : 10px 10px 16px rgba(0, 0, 0, 0.45);
+    padding: 16px 10%;
+    margin-top: 84px;
+    margin-bottom: 150px;
 }
 
-.btn-link ul li {
-    flex: 1;
+.title-text {
+    display: table-cell;
+    vertical-align: middle;
 }
 
-.btn-link a {
-    /*background-color: rgb(0, 220, 0);*/
-    background-color: #464646;
+.all-content {
+    border-top: 15px solid rgb(255, 235, 51);
+    list-style: none;
+    padding-top: 150px;
+    padding-left: 4%;
+}
+
+.number {
+    display: inline;
+    border-radius: 35px;
+    background-color: white;
+    border: 6.5px solid rgb(85, 50, 0);
+    box-shadow : 10px 10px 16px rgba(0, 0, 0, 0.45);
+    padding: 14px 18px;
+    font-size: 55px;
+    color: rgb(85, 50, 0);
+}
+
+.content {
     display: block;
-    height: 210px;
-    color: white;
-    text-align: center;
-    line-height: 210px;
-    text-decoration: none;
-    font-size: 105px;
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    border: 6.5px solid #2DB400;
+    box-shadow : 10px 10px 16px rgba(0, 0, 0, 0.45);
+    color: #2DB400;
+    border-radius: 35px;
+    font-size: 55px;
+    padding: 14px 18px;
+    margin-top: 60px;
+    margin-bottom: 120px;
 }
 
-.sidebar-p1-1 {
-    color: white;
+.menu-flex {
+    display: flex;
+    width: 100%;
+    border-top: 15px solid rgb(255, 235, 51);
+    padding-top: 150px;
+}
+
+.menu-flex1 {
+    animation-duration: 4s;
+    animation-name: menu;
+    flex: 1;
+    width: 300px;
+}
+
+@keyframes menu {
+    from {
+        margin-top: 100%;
+    }
+
+    to {
+        margin-bottom: 0%;
+    }
+}
+
+.menu-flex ul {
+    list-style: none;
+    padding-left: 0;
     margin: 0;
-    padding-top: 50px;
-    padding-bottom: 10px;
 }
 
-.div-11 {
-    width: 100%;
+.menu-flex ul li {
+    display: table;
+    -webkit-tap-highlight-color: transparent;
+    background: transparent;
+    text-transform: uppercase;
+    background-position: 1% 50%;
+    transition: all 0.7s ease-out;
+    background-color: white;
+    box-shadow : 10px 10px 16px rgba(0, 0, 0, 0.45);
+    border: none;
+    border: 6.5px solid #2DB400;
     text-align: center;
-    font-size: 120px;
+    width: 270px;
+    height: 80px;
+    line-height: 80px;
+    padding: 10px 6%;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 65px;
 }
 
-.div-11 a {
+.menu-flex li:hover {
+    background-color: #2DB400;
+}
+
+.menu-flex a {
+    display: table-cell;
     text-decoration: none;
-    color: #464646;
-    font-size: 120px;
+    font-size: 50px;
+    color: #2DB400;
 }
 
-.div-11 a:hover {
-    padding: 6px 10px;
-    background-color: #464646;
+.menu-flex a:hover {
     color: white;
-    border-radius: 12px;
 }
 
-.header-div {
-    /*background-color: rgb(0, 220, 0);*/
-    background-color:#464646;
-    /*border-top: 10px solid #5da62b;*/
-    border-top: 5px solid gray;
-    width: 100%;
+.menu-text {
+    display: table;
+    -webkit-tap-highlight-color: transparent;
+    background: transparent;
+    text-transform: uppercase;
+    background-position: 1% 50%;
+    transition: all 0.7s ease-out;
+    font-size: 80px;
+    font-weight: bold;
+    width: auto;
     height: 150px;
     line-height: 150px;
-    padding: 10px 14px 10px 50px;
-    margin-top: 70px;
-    color: white;
-    align-items: center;
-    column-gap: 10px;
-    font-size: 105px;
-    position: absolute;
-    top: 0;
-}
-
-.header-div:hover {
-    background-color: black;
-}
-
-.sidebar-p1,
-.sidebar-p2 {
-    font-size: 90px;
-    margin: 0;
-    padding-top: 50px;
-    padding-bottom: 10px;
-}
-
-.sidebar {
-    display: none;
-    top: 0;
-    /*background-color: rgb(0, 220, 0);*/
-    background-color: white;
-    color: #464646;
-    width: 900px;
-    height: auto;
+    padding: 16px 10%;
+    margin-top: 100px;
+    margin-bottom: 180px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    list-style: none;
-    text-decoration: none;
-    position: absolute;
-    margin-top: 70px;
-    padding-bottom: 100px;
+    background-color: white;
+    border: 10px solid rgb(248, 166, 72);
+    box-shadow : 8px 8px 16px rgba(0, 0, 0, 0.45);
+    border-radius: 65px;
 }
 
-.sidebar a:hover {
-    padding: 8px 12px;
-    background-color: #464646;
+.menu-text:hover {
+    background-color: rgb(248, 166, 72);
+}
+
+.menu-text a {
+    display: table-cell;
+    text-decoration: none;
+    color: rgb(248, 166, 72);
+}
+
+.menu .menu-text a:hover {
     color: white;
-    border-radius: 8px;
-}
-
-.sidebar-flex {
-    display: flex;
-}
-
-.flex1 {
-    flex: 1;
-}
-
-.sidebar ul {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-}
-
-.sidebar li {
-    padding-top: 6px;
-    padding-bottom: 6px;
-}
-
-.sidebar ul li a {
-    text-decoration: none;
-    color: #464646;
-    font-size: 55px;
-}
-
-.emphasized {
-    box-shadow : rgba(0,0,0,0.5) 0 0 0 9999px;
 }
