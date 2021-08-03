@@ -36,56 +36,56 @@ function nightDayHandler(self) {
 
 function setColor1(color1) {
 
-    for (var c1 = 0; c1 < content.length; c1++) {
+    for (let c1 = 0; c1 < content.length; c1++) {
         content[c1].style.color = color1;
     }
 }
 
 function setColor2(color2) {
     
-    for (var c2 = 0; c2 < number.length; c2++) {
+    for (let c2 = 0; c2 < number.length; c2++) {
         number[c2].style.color = color2;
     } 
 }
 
 function setColor3(color3) {
     
-    for (var c3 = 0; c3 < content.length; c3++) {
+    for (let c3 = 0; c3 < content.length; c3++) {
         content[c3].style.backgroundColor = color3;
     }
 }
 
 function setColor4(color4) {
     
-    for (var c4 = 0; c4 < number.length; c4++) {
+    for (let c4 = 0; c4 < number.length; c4++) {
         number[c4].style.backgroundColor = color4;
     } 
 }
 
 function setColor5(color5) {
     
-    for (var c5 = 0; c5 < title.length; c5++) {
+    for (let c5 = 0; c5 < title.length; c5++) {
         title[c5].style.backgroundColor = color5;
     }
 }
 
 function setColor6(color6) {
     
-    for (var c6 = 0; c6 < title.length; c6++) {
+    for (let c6 = 0; c6 < title.length; c6++) {
         title[c6].style.color = color6;
     }
 }
 
 function setColor7(color7) {
     
-    for (var c7 = 0; c7 < red.length; c7++) {
+    for (let c7 = 0; c7 < red.length; c7++) {
         red[c7].style.backgroundColor = color7;
     }
 }
 
 function setColor8(color8) {
 
-    for (var c8 = 0; c8 < red.length; c8++) {
+    for (let c8 = 0; c8 < red.length; c8++) {
         red[c8].style.color = color8;
     }
 }
