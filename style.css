@@ -127,7 +127,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: auto;
+    height: 700%;
     background-image: url('img_landscape.jpg');
     background-size: initial;
 }
