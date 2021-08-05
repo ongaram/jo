@@ -40,7 +40,8 @@ body {
 
 /*번호*/
 .number {
-    display: inline;
+    margin-top: 100px;
+    display: inline-block;
     border-radius: 35px;
     background-color: white;
     border: 6.5px solid #C12DFF;
@@ -63,8 +64,7 @@ body {
     border-radius: 35px;
     font-size: 60px;
     padding: 14px 18px;
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin-top: 30px;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -81,10 +81,9 @@ body {
     border-radius: 35px;
     font-size: 60px;
     padding: 14px 18px;
-    margin-top: 60px;
-    margin-bottom: 120px;
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 15px;
 }
 
 /*주간 야간 모드*/
