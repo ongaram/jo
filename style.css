@@ -1,13 +1,13 @@
 html{
     margin: 0;
     padding: 0;
-    background-image: url('img_day.jpg');
-    background-size: cover;
 }
 
 body {
     margin: 0;
     padding: 0;
+    background-image: url('img_day.jpg');
+    background-size: initial;
 }
 
 /*제목*/
@@ -27,8 +27,8 @@ body {
     border-radius: 65px;
     box-shadow : 10px 10px 16px rgba(0, 0, 0, 0.45);
     padding: 16px 10%;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 75px;
+    margin-bottom: 225px;
 }
 
 /*원문, 해설, 부연설명 전체*/
@@ -105,7 +105,8 @@ body {
 }
 
 /*전구 이미지*/
-.color { 
+.color {
+    margin-top: 360px;
     width: 125px;
     height: 125px;
     -webkit-tap-highlight-color: transparent;
@@ -138,7 +139,7 @@ body {
 .sidebarBtn {
     z-index: 1;
     position: absolute;
-    top: 0;
+    top: 400px;
     right: -100px;
     width: 100px;
     height: 100px;
@@ -222,8 +223,8 @@ body {
     border-radius: 65px;
     box-shadow : 10px 10px 16px rgba(0, 0, 0, 0.45);
     padding: 16px 10%;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 75px;
+    margin-bottom: 225px;
 }
 
 /*목록 세로를 기준으로 나누기 (flex 속성 도입)*/
@@ -303,7 +304,7 @@ body {
 
 .sidebarBtn2 {
     position: absolute;
-    top: 10px;
+    top: 400px;
     left: 10px;
     transition: .3s;
     background-color: rgba(0, 0, 0, 0);

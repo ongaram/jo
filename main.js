@@ -3,13 +3,13 @@ const content = document.querySelectorAll('.content');
 const number = document.querySelectorAll('.number');
 const title = document.querySelectorAll('.title');
 const red = document.querySelectorAll('.red');
-const html = document.querySelector('html');
+const body = document.querySelector('body');
 
 function nightDayHandler(self) {
 
     if (self.value === 'night') {
-        html.style.backgroundImage = 'url("img_night.jpg")';
-        html.style.backgroundSize = 'cover';
+        body.style.backgroundImage = 'url("img_night.jpg")';
+        body.style.backgroundSize = 'initial';
         self.value = 'day';
         setColor1('white');
         setColor2('white');
@@ -20,8 +20,8 @@ function nightDayHandler(self) {
         setColor7('rgba(0, 0, 0, 0)');
         setColor8('white');
     } else if (self.value === 'day') {
-        html.style.backgroundImage = 'url("img_day.jpg")';
-        html.style.backgroundSize = 'cover';
+        body.style.backgroundImage = 'url("img_day.jpg")';
+        body.style.backgroundSize = 'initial';
         self.value = 'night';
         setColor1('#2DB400');
         setColor2('rgb(85, 50, 0)');
